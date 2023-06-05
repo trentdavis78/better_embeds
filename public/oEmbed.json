@@ -1,0 +1,12 @@
+{
+    "version": "1.0",
+    "type": "video",
+    "provider_name": "Example Video Provider",
+    "provider_url": "https://www.example.com",
+    "title": "Example Video",
+    "author_name": "John Doe",
+    "author_url": "https://www.example.com/johndoe",
+    "html": "<iframe src='https://customer-igk247l8z2yvq5er.cloudflarestream.com/0dfe621f2d99cde7b1fe3575b963fc48/manifest/video.m3u8' width='500' height='300' frameborder='0' allowfullscreen></iframe>",
+    "width": 500,
+    "height": 300
+  }
