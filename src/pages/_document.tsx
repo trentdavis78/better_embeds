@@ -3,14 +3,14 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   var data = {
     /* defaults */
-    site_name: 'NFTG.TV',
-    author: 'Join The NFTGamerTV (NFTG) Community',
-    title: 'NFT/De-Fi/Crypto News, Games, Reviews, Drop Schedules, Live Streams',
+    site_name: 'local.ai',
+    author: 'Model Management | Digest Verification | Inferencing Server',
+    title: 'Local AI Model Management, Verification, and Inferencing',
   
     description:
-      'When you join the NFTG community, you are joining a sodality of NFT/crypto enthusiasts along with some of the most educated & experienced Play-to-Earn (P2E) gamers in the entire Gamerverse!"',
-    image_url: '/images/og/hero_img.png',
-    theme_color: '#01FFF5',
+      'Experiment with AI models locally with a native app designed to simplify the whole process.',
+    image_url: 'https://imagedelivery.net/dCSlCQNYRsUOWJPw5n2BPQ/3930b2ea-a176-4046-a42e-58f1c4893700/1920',
+    theme_color: '#0090ff',
     og_type: 'website',
   
   }
@@ -33,7 +33,7 @@ export default function Document() {
           <meta name="twitter:card" content="summary_large_image" key="misc-card" />
           <link
             type="application/json+oembed"
-            href="https://nftg.tv/"
+            href="/oEmbed.json"
 
           />
           </Head>
