@@ -5,7 +5,7 @@ var data = {
     /* defaults */
     site_name: 'www.dopeoplestill/type-www-in-urls/?',
     author: 'you can add some additional info thats not the author here too',
-    title: 'Some title I would try to keep to 40 characters or less,
+    title: 'Some title I would try to keep to 40 characters or less',
   
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et justo justo. Pellentesque dignissim eros sed nisl mollis, eget iaculis urna tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut diam risus. Duis condimentum fermentum elementum. Aliquam varius arcu sit amet ligula auctor, in iaculis tortor feugiat. Vivamus luctus est in dolor accumsan congue.',
