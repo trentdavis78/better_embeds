@@ -17,27 +17,23 @@ var data = {
   return (
     <Html lang="en">
       <Head>
-      <meta property="og:locale" content="en_US" />
+ <meta property="og:locale" content="en_US" />
           <meta property="og:type" content={data.og_type} key="og_type" />
 
           {/* discord large image embed */}
           <meta property="og:site_name" content={data.site_name} key="site_name" />
-          <meta property="og:author" content={data.author} key="author" />
           <meta property="og:title" content={data.title} key="title" />
-    
+         <meta property="og:author" content={data.author} key="author" />
           <meta
             property="og:description"
             content={data.description}
-            key="og_description"
-          />
+            key="og_description" />
           <meta property="og:image" content={data.image_url} key="image" />
-          <meta name="theme-color" content={data.theme_color} key="theme-color" />
+          <meta name="theme-color" content={'cyan'} key="theme-color" />
           <meta name="twitter:card" content="summary_large_image" key="misc-card" />
           <link
             type="application/json+oembed"
-            href="/oEmbed.json"
-
-          />
+            href="/oEmbed.json" />
           </Head>
       <body>
         <Main />
