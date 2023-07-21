@@ -23,12 +23,13 @@
  
   <head>
     
-    <meta property="og:locale" content="en_US" />
+<meta property="og:locale" content="en_US" />
           <meta property="og:type" content={data.og_type} key="og_type" />
 
           {/* discord large image embed */}
-          <meta property="og:title" content={data.title} key="title" />
           <meta property="og:site_name" content={data.site_name} key="site_name" />
+          <meta property="og:title" content={data.title} key="title" />
+         <meta property="og:author" content={data.author} key="author" />
           <meta
             property="og:description"
             content={data.description}
