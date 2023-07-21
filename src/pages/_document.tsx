@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
 var data = {
     /* defaults */
-    site_name: 'www.dopeoplestill/type-www-in-urls/?'
+    site_name: 'www.dopeoplestill/type-www-in-urls/?',
     author: 'you can add some additional info thats not the author here too',
     title: 'Some title I would try to keep to 40 characters or less,
   
