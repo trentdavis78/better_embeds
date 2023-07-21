@@ -1,15 +1,15 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
-  var data = {
+var data = {
     /* defaults */
-    site_name: 'local.ai',
-    author: 'Model Management | Digest Verification | Inferencing Server',
-    title: 'Local AI Model Management, Verification, and Inferencing',
+    site_name: 'www.dopeoplestill/type-www-in-urls/?'
+    author: 'you can add some additional info thats not the author here too',
+    title: 'Some title I would try to keep to 40 characters or less,
   
     description:
-      'Experiment with AI models locally with a native app designed to simplify the whole process.',
-    image_url: 'https://imagedelivery.net/dCSlCQNYRsUOWJPw5n2BPQ/3930b2ea-a176-4046-a42e-58f1c4893700/1920',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et justo justo. Pellentesque dignissim eros sed nisl mollis, eget iaculis urna tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut diam risus. Duis condimentum fermentum elementum. Aliquam varius arcu sit amet ligula auctor, in iaculis tortor feugiat. Vivamus luctus est in dolor accumsan congue.',
+    image_url: 'https://picsum.photos/1920/1080',
     theme_color: '#0090ff',
     og_type: 'website',
   
@@ -21,15 +21,17 @@ export default function Document() {
           <meta property="og:type" content={data.og_type} key="og_type" />
 
           {/* discord large image embed */}
-          <meta property="og:title" content={data.title} key="title" />
           <meta property="og:site_name" content={data.site_name} key="site_name" />
+          <meta property="og:author" content={data.author} key="author" />
+          <meta property="og:title" content={data.title} key="title" />
+    
           <meta
             property="og:description"
             content={data.description}
             key="og_description"
           />
           <meta property="og:image" content={data.image_url} key="image" />
-          <meta name="theme-color" content={'cyan'} key="theme-color" />
+          <meta name="theme-color" content={data.theme_color} key="theme-color" />
           <meta name="twitter:card" content="summary_large_image" key="misc-card" />
           <link
             type="application/json+oembed"
