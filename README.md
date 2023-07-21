@@ -1,9 +1,9 @@
 # Better Discord Embeds
-## _"don't be the dev with the ugly social embeds"_ 
+#### *"...don't be the dev with the ugly social embeds"* 
 ##### - Bob Kahn, inventor of the internet
  
  
-#### See _document.jsx in the src/pages folder for example usage:
+#### _See  \_document.jsx in the src/pages folder for example usage:_
 
 ```sh
  const data = {
